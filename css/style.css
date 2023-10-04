@@ -1,0 +1,90 @@
+header{
+    text-align: center;
+}
+body{
+    font-family: 'Roboto', sans-serif; 
+    background: linear-gradient(to top left, rgb(70, 255, 224), rgb(255, 255, 255));
+    padding:40px;
+}
+
+h2{
+    text-decoration: underline;
+    padding:10px;
+}
+ul{
+    list-style: none;
+}
+p{
+    padding:10px;
+    margin:10px;
+}
+img{
+    border-radius: 10px;
+}
+footer{
+    background: linear-gradient(90deg, rgba(179, 165, 241, 0.816) 0%, rgba(141, 107, 235, 0.9) 26%, rgba(0, 142, 171, 0.9529061624649859) 75%, rgba(0, 118, 142, 1) 100%);
+    padding:10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.link-list {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 10px;
+}
+.fact-list{
+    border:solid;
+    border-radius: 10px;
+    
+}
+.fact-item{
+    padding:10px;
+    margin:10px;
+    
+}
+.bio-content{
+    width: 400px;
+    height: 160px; 
+    margin-left:20px;
+    padding:10px;
+}
+
+.bio-box{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap:100px;
+}
+.bio-img{
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.384);
+    box-shadow: 5px 5px rgba(235, 123, 220, 0.5);
+}
+.hobby{
+    border:solid;
+    border-color: rgba(49, 11, 99, 0.384);
+    border-radius: 10px;
+    width: 480px;
+    height: 240px;
+    padding:10px;
+    margin:20px;
+    margin-left:130px ;
+}
+.music{
+    border:solid;
+    border-color: rgba(49, 11, 99, 0.384);
+    border-radius: 10px;
+    width: 480px;
+    height: 240px;
+    padding:10px;
+    margin:20px;
+    margin-left: 0px ;
+}
+.my-info{
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+}
