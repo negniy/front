@@ -1,0 +1,46 @@
+body{
+    font-family: 'durik', sans-serif; 
+    background: bisque;
+    padding:40px;
+}
+.header{
+    text-align: right;
+    color:black;
+}
+table{
+    width: 100%;
+    margin: 20px;
+    background-color:darksalmon;
+    border: solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+th{
+    padding: 35px;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+tr:hover{
+    background-color: rgba(119, 209, 242, 0.592)
+}
+caption{
+    padding: 20px;
+    text-align: center;
+    color:black;
+    font-size: large;
+}
+.tbl-img{
+    margin: 15px;
+    background-color: white;
+    border: solid;
+    border-radius: 20px;
+    border-color: black;
+    width: 150px;
+    height: 150px;
+}
