@@ -44,3 +44,46 @@ caption{
     width: 150px;
     height: 150px;
 }
+form{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+fieldset{
+    border: none;
+}
+legend{
+    border-radius: 20px;
+    background-color: dodgerblue;
+    padding: 25px;
+    margin: 15px;
+    color:black;
+    font-size: large; 
+}
+input, label{
+    position: relative;
+    left: 70px;
+    margin: 10px;
+    text-align: left;
+    color:black;
+    font-size: medium; 
+}
+label{
+    padding: 15px;
+}
+input{
+    padding: 5px;
+    color: rgba(132, 132, 132, 0.5);
+    border-radius: 10px;
+}
+#send{
+    border-color: rgba(30, 144, 255, 1);
+    background-color: rgba(30, 144, 255, 0.5);
+    border-radius: 20px;
+    color:white;
+    width: 205px;
+}
+#send:hover{
+    background-color: rgba(30, 144, 255, 0.5);
+}

@@ -102,5 +102,23 @@
                 <td>@fStikBot</td>
             </tr>
         </table>
+        <form action="/action.php">
+            <fieldset>
+                <legend>Добавь свой стикер!</legend>
+                <label for="st_name">Название стикера</label><br>
+                <input type="text" id="st_name" name="st_name" value="Stick name"><br>
+
+                <label for="st_address">Адрес картинки</label><br>
+                <input type="text" id="st_address" name="st_address" value="Abs address"><br>
+
+                <label for="sts_name">Название стикерпака</label><br>
+                <input type="text" id="sts_name" name="sts_name" value="Stickerpack"><br>
+                
+                <label for="st_author">Ник автора</label><br>
+                <input type="text" id="st_author" name="st_author" value="Author's nik"><br>
+
+                <input type="submit" value="Отправить" id="send">
+            </fieldset>
+        </form>
     </body>
 </html>
